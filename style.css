@@ -1,0 +1,188 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.login-container{
+  background-color: #3b5998;
+  height: 80px;
+  /* border: 1px solid red; */
+}
+.title{
+  /* border: 1px solid red; */
+  height: 80px;
+  width: 650px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+.title h1{
+  /* height: 120px; */
+  /* border: 1px solid red; */
+  margin-left: 180px;
+  font-size: 43px;
+  /* border: 1px solid yellow; */
+}
+.login{
+/* border: 1px solid yellow; */
+height: 80px;
+width: 430px;
+position: absolute;
+right: 130px;
+top: 0px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 13px;
+}
+.passinput input[type="password"],
+.emailinput input[type="email"]{
+  color: black;
+  height: 25px;
+  width: 160px;
+  margin-bottom: 10px;
+}
+.loginbtn{
+font-size: 13px;
+margin-top: 15px;
+/* border: 1px solid yellow; */
+position: relative;
+right: 30px;
+bottom: 5px;
+}
+.loginbtn button{
+  background-color:#4668b3 ;
+  width: 50px;
+  height: 25px;
+  text-decoration: none;
+}
+.content{
+  background-color: #eff4ff;
+  height: 600px;
+  
+}
+.contenthead{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+.contenthead h1{
+  font-size: 40px;
+  color: rgb(44, 44, 44);
+  padding: 20px;
+}
+.contenthead span{
+  font-size: 20px;
+  font-weight: 100;
+  color: rgb(104, 104, 104);
+  position: absolute;
+  margin-top: 10px;
+  left: 465px;
+}
+.signup-row{
+  /* border: 1px solid red; */
+  height: 550px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.namecontainer{
+  /* border: 1px solid red; */
+  height: 70px;
+  width: 430px;
+}
+.name-row{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.name-row input[type="text"]{
+  height: 45px;
+  width: 200px;
+  font-size: large;
+  border-radius: 5px;
+  border: 1px solid #B9C9EF;
+  padding: 10px;
+  color: rgb(206, 216, 240);
+}
+.email-row{
+  margin: 10px;
+}
+.email-row input[type="email"],
+.email-row input[type="password"]{
+  width: 420px;
+  height: 45px;
+  font-size: large;
+  border-radius: 5px;
+  border: 1px solid #B9C9EF;
+  padding: 10px;
+  color: rgb(206, 216, 240);
+}
+
+.birthday option, select{
+  color: rgb(149, 149, 149);
+  width: 80px;
+  height: 37px;
+}
+.birthdaycontainer{
+  /* border: 1px solid red; */
+  width: 420px;
+}
+.birthdaycontainer p{
+  color: rgb(131, 131, 131);
+  font-weight: bold;
+  margin-top: 10px;
+}
+.birthday{
+  margin-top: 10px;
+}
+.radio-row{
+  /* border: 1px solid red; */
+  width: 420px;
+  height: 45px;
+  margin-top: 20px;
+}
+.gender-row{
+  border: none;
+}
+.radio-row label{
+  color: rgb(59, 59, 59);
+  font-size: 20PX;
+}
+.radio-row legend{
+  color:rgb(134, 134, 134) ;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.gender-row input[type="radio"]{
+  margin: 5px;
+}
+.terms p{
+  color:rgb(134, 134, 134);
+  font-size: 14px;
+  margin-top: 20px;
+}
+.submitbutton{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* border: 1px solid red; */
+  width: 430px;
+}
+.submitbutton button{
+  margin-top: 30px;
+  width: 230px;
+  height:40px;
+  background-color: limegreen;
+  border: none;
+  font-size: 20px;
+}
